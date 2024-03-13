@@ -1,24 +1,43 @@
 html, body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  canvas {
-    display: block;
-  }
-  
-  .orange {
-    color: #bf6a09;
-    overflow: hidden;
-  }
-  
-  .quicklinks__link-content {
-      position: relative;
-      margin: 13px 20px;
-      padding: 4px 0;
-      background-color: aquarine;
-  }
-  
-  .emphasized {
-    font-style: italic;
-    color: purple;
+  margin: 0;
+  padding: 100;
+}
+canvas {
+  display: block;
+}
+main {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+hr:first-of-type {
+  margin-top: 40px; 
+}
+
+p.orange {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+p:nth-of-type(3) {
+  margin-bottom: 40px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.image-wrapper {
+  margin: 0 20px; 
+}
+
+.image-wrapper p {
+  text-align: center;
+}
